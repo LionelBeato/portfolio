@@ -10,6 +10,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+
+    <script>
+
+    </script>
+
     <style>
 
 
@@ -18,10 +24,24 @@
     .jumbotron{text-align: center}
      }
 
+     .fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
     .jumbotron{
          background: none;
          color:white;
-         text-shadow: 5px 5px 10px #000000;
+         text-shadow: 1px 1px 10px #000000;
      }
 
      .style{
@@ -30,20 +50,44 @@
          color: lightgrey;
      }
 
+     .vic-font{
+         font-family: 'Righteous', sans-serif;
+         font-variant: small-caps;
+     }
+
+<<<<<<< HEAD
+     .style{
+         font-family:'Courier New', Courier, monospace;
+         font-variant: small-caps;
+         color: lightgrey;
+     }
+
      @import url('https://fonts.googleapis.com/css?family=Anton');
+=======
+     .list{
+         list-style: none;
+     }
+
+     .logo:hover{
+         filter: drop-shadow(0 0 15px grey);
+         transition:.7s;
+     }
+
+     
+>>>>>>> feature-footer
 
 
     </style>
 
     </head>
 
-    <body>
+    <body style="margin:auto">
 
         <!--top image with jumbotron-->
 
 
-        <div class="shadow" style="background:url(https://pmctvline2.files.wordpress.com/2016/06/trump-mad-men.jpg); background-position:center; background-size:cover">        
-            <div id class="container-fluid">
+        <div class="shadow divtop" style="background:url(https://pmctvline2.files.wordpress.com/2016/06/trump-mad-men.jpg); background-position:center; background-size:cover">        
+            <div class="container-fluid">
                     <div class="row">
                         <div class="col my-auto mx-auto hide"></div>
                         <div class="col my-auto mx-auto p-5">
@@ -60,38 +104,67 @@
 
         <div class="container-fluid border-bottom">
             <div class="text-center row p-5 my-auto mx-auto">
-                <div class="col  p-3"><img class="img-fluid" src="https://www.techtalentsouth.com/hubfs/TTS-logo-no-slogan-transparent-4.png" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
-                <div class="col  p-3"><img class="img-fluid" src="https://scontent-lax3-1.cdninstagram.com/vp/ffe003d7eb8aa61d3e1754386aee0cb6/5CF37325/t51.2885-15/e35/s480x480/50742174_612869935793952_3726161147366352246_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
-                <div class="col  p-3"><img class="img-fluid" src="https://www.techtalentsouth.com/hubfs/TTS-logo-no-slogan-transparent-4.png" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
+                <div class="col  p-3"><img class="img-fluid logo" src="https://i.ibb.co/pnqnJft/techtalentsouth.png" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
+                <div class="col  p-3"><img class="img-fluid logo" src="https://scontent-lax3-1.cdninstagram.com/vp/ffe003d7eb8aa61d3e1754386aee0cb6/5CF37325/t51.2885-15/e35/s480x480/50742174_612869935793952_3726161147366352246_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
+                <div class="col  p-3"><img class="img-fluid logo" src="https://ctaintsobad.com/wp-content/uploads/2017/09/UPWARD-HARTFORD-YELLOW-LOGO.jpg" style="min-height: 100px; min-width:100px; max-height: 200px"></div>
 
             </div>
         </div>
 
         <!--victory jump probably-->
 
-        <div class="shadow bg-info" style="height: 300px;">
+        <div class="bg-info p-5">
+            <div class="row" style="margin-right:0">
+                <div class="col"><div class=""><h1 class="p-5 vic-font float-left text-center">This is <span style="font-size:10vw">VICTORY JUMP</span></h></div>
+                </div>
+            </div>
+            <div class="row p-5" style="margin-right:0">
+                    <div class="col-8"><img style="min-width: 200px" class= "fade-in p-3 img-fluid" src="https://ksr-ugc.imgix.net/assets/023/185/260/b39d11b458ca381e9eb80a1a854ffdcf_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1541655562&auto=format&frame=1&q=92&s=12eeb898d89e92757ca16673ac361070" ></div>
+                    <div class="col-md"><p class="p-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                        </p></div>
+            </div>
+            <div class="row p-5" style="margin-right:0">
+                    <div class="col-8"><img style="min-width: 200px" class="fade-in p-3 img-fluid FlipInX" src="https://ksr-ugc.imgix.net/assets/023/185/260/b39d11b458ca381e9eb80a1a854ffdcf_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1541655562&auto=format&frame=1&q=92&s=12eeb898d89e92757ca16673ac361070"></div>
+                    <div class="col-md"><p class= "p-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                        </p></div>
+            </div>
         </div>
 
         <!--footer-->
 
         <div class="bg-secondary p-5">
+<<<<<<< HEAD
             <div class="row text-center style" style="margin-right:0">
                 <div class="col p-1"><h>orem ipsum</h></div>
+=======
+            <div class="row text-center" style="margin-right:0">
+                <div class="col p-1"><h>Social Media</h></div>
+>>>>>>> feature-footer
                 <div class="col p-1"><h>Made with &#x2764 in Hartford</h></div>
                 <div class="col p-1"><h>Contact Me</h></div>
                 </div>
                 <div class="row  text-center style" style="margin-right:0">
+<<<<<<< HEAD
                      <div class="col hide"><ul>
+=======
+                     <div class="col hide">
+>>>>>>> feature-footer
                         <li>xxxx</li>
                         <li>xxxx</li>
                         <li>xxxx</li>
                     </ul></div>
+<<<<<<< HEAD
                     <div class="col hide"><ul>
+=======
+                    <div class="col hide">
+>>>>>>> feature-footer
                         <li>xxxx</li>
                         <li>xxxx</li>
                         <li>xxxx</li>
                     </ul></div>
+<<<<<<< HEAD
                     <div class="col hide"><ul>
+=======
+                    <div class="col hide">
+>>>>>>> feature-footer
                         <li>xxxx</li>
                         <li>xxxx</li>
                         <li>xxxx</li>
